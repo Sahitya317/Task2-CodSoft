@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.contents {
+    height:10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: solid;
+    gap: rem;
+    text-align: center;
+    list-style: none;
+    background-color: grey;
+
+}
+
+ 
+
+
+.navlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+
+body{
+    background-color:black;
+    color: white;
+
+}
+
+.intro{
+    color: aliceblue;
+    padding-left: 5rem;
+    padding-top: 6rem;
+}
+
+.intro h2 {
+    font-size: 2rem;
+}
+
+.intro h1 {
+    font-size: 4rem;
+}
+
+.brief {
+    max-width: 46rem;
+    margin: 1.1rem 0 3rem 0;
+}
+
+.btn {
+    padding-top:2rem ;
+    padding-left: 5rem;
+border-radius: 2rem;
+}
+
+button:hover {
+     background:transparent;
+     color: aqua;
+}
+  
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.circle:nth-child(1){
+    background:#fff;
+    width: 23rem;
+}
+
+.circle:nth-child(2){
+    
+    width: 20rem;
+    
+    background-image: url("image/IMG-20240916-WA0012[1].jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.circle:nth-child(2) {
+    img {
+        width: 20rem;
+        height: 20rem;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+.About h1 {
+    font-size: 1.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 9rem;
+    margin-top: 3rem;
+    color: plum;
+}
+
+.left-container{
+    img {
+    height: 500px;
+    width: 500px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    border-radius: 50%;
+    
+}
+}
+
+.right-container {
+    margin-top: -25rem;
+    margin-left: 46rem;
+    max-width:50rem ;
+    
+}
+
+.right-container ul{
+    margin-top: 4rem;
+}
+
+.skills h3{
+    margin-top: 13rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40rem;
+    font-size: 6rem;
+    text-decoration: underline;
+}
+
+
+
+.skills img {
+    height:300 px;
+    width: 300px;
+    margin-left: 7rem;
+    display: inline;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 120rem;
+    margin-top: 5rem;
+    }
+
+.star-icon {
+    color: #ffe400;
+    font-size:50px;
+    font-weight: 800;
+    margin-left: 6rem;
+
+}
+
+.star-icon input + label{
+   font-size: 60px;
+   text-shadow: 1px 1px 0 #ffe400;
+   cursor: pointer;
+}
+
+.star-icon input{
+    display: none;
+}
+.star-icon input:checked + label ~ label{
+    color:#838383;
+}
+
+
+
+.star-icon label:active{
+    transform: scale(0.8);
+    transition: 0.1s ease-in;
+}
+
+.htms img{
+    height: 410px;
+    width: 300px;
+    margin-left: 42rem;
+    margin-top: -150rem;
+    padding-bottom: 6rem;
+}
+
+
+.star-iconh {
+color: #ffe400;
+font-size:50px;
+font-weight: 800;
+margin-left: 41rem;
+margin-top: -6rem;
+padding-bottom: 6rem;
+
+}
+
+.star-iconh input + label{
+   font-size: 60px;
+   text-shadow: 1px 1px 0 #ffe400;
+   cursor: pointer;
+}
+
+.star-iconh input{
+    display: none;
+}
+.star-iconh input:checked + label ~ label{
+    color:#838383;
+}
+.star-iconh label:active{
+    transform: scale(0.8);
+    transition: 0.1s ease-in;
+}
+
+
+
+
+.reactjs img{
+    height: 300px;
+    width: 300px;
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+
+.star-icon3 {
+    color: #ffe400;
+    font-size:50px;
+    font-weight: 800;
+    margin-left: 8.5rem;
+
+}
+
+.star-icon3 input + label{
+   font-size: 60px;
+   text-shadow: 1px 1px 0 #ffe400;
+   cursor: pointer;
+}
+
+.star-icon3 input{
+    display: none;
+}
+.star-icon3 input:checked + label ~ label{
+    color:#838383;
+}
+.star-icon3 label:active{
+    transform: scale(0.8);
+    transition: 0.1s ease-in;
+}
+
+.JavaScript img{
+    height: 390px;
+    width: 300px;
+    margin-left:42rem;
+    margin-top: -200rem;
+    padding-bottom: 5rem;
+    
+    
+}
+
+.star-icon2 {
+    color: #ffe400;
+    font-size:50px;
+    font-weight: 800;
+    margin-left: 43rem;
+    margin-top: -5rem;
+
+}
+
+.star-icon2 input + label{
+   font-size: 60px;
+   text-shadow: 1px 1px 0 #ffe400;
+   cursor: pointer;
+}
+
+.star-icon2 input{
+    display: none;
+}
+.star-icon2 input:checked + label ~ label{
+    color:#838383;
+}
+.star-icon2 label:active{
+    transform: scale(0.8);
+    transition: 0.1s ease-in;
+}
+.clogo img{
+    height: 410px;
+    width: 310px;
+    margin-left: 73rem;
+    margin-top: -122rem;
+    padding-bottom: 5rem;
+}
+
+.star-icon4 {
+    color: #ffe400;
+    font-size:50px;
+    font-weight: 800;
+    margin-left: 74rem;
+    margin-top: -5rem;
+
+}
+
+.star-icon4 input + label{
+   font-size: 60px;
+   text-shadow: 1px 1px 0 #ffe400;
+   cursor: pointer;
+}
+
+.star-icon4 input{
+    display: none;
+}
+.star-icon4 input:checked + label ~ label{
+    color:#838383;
+}
+.star-icon4 label:active{
+    transform: scale(0.8);
+    transition: 0.1s ease-in;
+}
+
+.github img {
+    height: 510px;
+    width: 300px;
+    margin-left: 73rem;
+    margin-top: -150rem;
+    padding-bottom: 12rem;
+}
+
+
+.star-icons {
+    color: #ffe400;
+    font-size:50px;
+    font-weight: 800;
+    margin-left: 75rem;
+    margin-top: -11.5rem;
+    padding-bottom: 4rem;
+    
+    }
+    
+    .star-icons input + label{
+       font-size: 60px;
+       text-shadow: 1px 1px 0 #ffe400;
+       cursor: pointer;
+    }
+    
+    .star-icons input{
+        display: none;
+    }
+    .star-icons input:checked + label ~ label{
+        color:#838383;
+    }
+    .star-icons label:active{
+        transform: scale(0.8);
+        transition: 0.1s ease-in;
+    }
+
+    #project {
+        display: inline-block;
+        border: 2px solid #fff;
+        padding: 27px;
+        min-height: fit-content;
+        width: fit-content;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40rem;
+        margin-top: 5rem;
+        font-size: 42px;
+        text-decoration: underline;
+    
+        
+
+    }
+
+    .pjct1 {
+        margin-top: 5rem;
+        margin-left: 6rem;
+    }
+
+    .pjct1 h2 {
+        border: 2px solid #be3838;
+        width: fit-content;
+        background-color: rgb(227, 11, 47);
+    }
+
+    .pjct1 h2::after {
+        content: '';
+        position: absolute;
+        background-image: conic-gradient(red,blue);
+    }
+    .pjct1 h2::before {
+        content: '';
+        background: linear-gradient(
+            45deg,
+            #FF0000, #FF7300, #FFFB00, #48FF00, 
+            #00FFD5, #002BFF, #FF00C8, #FF0000,
+        
+        );
+    }
+
+
+
+    .pjct2 {
+        margin-top: 6rem;
+        margin-left: 0rem;
+    }
+
+    .tic img{
+        height: 200px;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 37rem;
+        margin-top: 2rem;
+    }
+
+    .pjct3 {
+        margin-top: 7rem;
+    }
+
+    .rock img{
+        height: 200px;
+        width: 200px;
+        margin-left: 37rem;
+        margin-top: 2rem;
+    }
+
+
+    .Resume {
+        margin-left: 6rem;
+        font-size: 25px;
+        margin-top: 6rem;
+        font-style: italic;
+        
+    }
+
+    .rsume img{
+        height: 500px;
+        width: 400px;
+        margin-left: 37rem;
+        border:#002BFF 2px solid;
+    }
+
+    #link {
+        border: 2px solid red;
+        width: fit-content;
+        padding: 8px;
+        margin-left: 44rem;
+        cursor: pointer;
+        color: #00FFD5;
+        
+    }
+    button:hover{
+        color: aquamarine;
+    }
+
+    .contct {
+        margin-top: -10rem;
+        margin-left: 24rem;
+        padding-right: 27rem;
+    }
+
+    #conlogo img{ 
+        height: 200px;
+        width: 200px;
+        margin-top: 4rem;
+        margin-left: 6rem;
+    }
+    .contct h1{
+        font-style: oblique;
+        font-size: 35px;
+        color: #FF00C8;
+        font-weight: 10;
+
+    }
+
+    .right img{
+        height: 300px;
+        width: 300px;
+        margin-left: 73rem;
+        margin-top: -12rem;
+        border-radius: 50%;
+    }
+
+    .icon {
+        position: relative;
+        width: 100%;
+        padding: 25px 500px;
+        
+
+    }
+
+    
+
+    .formcontact {
+        padding: 15px;
+        margin-top: 3rem;
+        border: 3px solid whitesmoke;
+        width: fit-content;
+        margin-left: 37rem;
+
+        
+    }
+
+    .input{
+        padding: 8px;
+    
+    }
+
+    .input.textarea {
+        height: 80px;
+    }
+
+    #footer {
+        margin-top: 17rem;
+    }
+    
+    
+    
+
+
+
+
+
+
+    
